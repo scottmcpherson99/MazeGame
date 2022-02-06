@@ -6,11 +6,13 @@
 /NAME:"UE4Editor-Mazegame_.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Unreal Projects\Mazegame_\Intermediate\Build\Win64\Mazegame_Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"D:\Unreal Projects\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Mazegame_.cpp.obj"
-"D:\Unreal Projects\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Mazegame_GameModeBase.cpp.obj"
-"D:\Unreal Projects\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Mazegame_.init.gen.cpp.obj"
-"D:\Unreal Projects\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Mazegame_GameModeBase.gen.cpp.obj"
-"D:\Unreal Projects\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Default.rc2.res"
-/OUT:"D:\Unreal Projects\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_.lib"
+"D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\Mazegame_Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Mazegame_.cpp.obj"
+"D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Mazegame_GameModeBase.cpp.obj"
+"D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\PlayerCharacter.cpp.obj"
+"D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Mazegame_.init.gen.cpp.obj"
+"D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Mazegame_GameModeBase.gen.cpp.obj"
+"D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\PlayerCharacter.gen.cpp.obj"
+"D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Default.rc2.res"
+/OUT:"D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_.lib"
 /INCLUDE:IMPLEMENT_MODULE_Mazegame_
