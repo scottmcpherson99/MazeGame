@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Mazegame_",
+			"Path": "D:\\Unreal Projects\\Mazegame_\\Source\\Mazegame_.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Mazegame_Editor",
+			"Path": "D:\\Unreal Projects\\Mazegame_\\Source\\Mazegame_Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Mazegame_.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8970573E-7D83-4136-8593-51ED7858329F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Mazegame_.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Mazegame_Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F0988D13-9F80-4B3F-B482-8E9892845077}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Mazegame_">
+      <UniqueIdentifier>{7D5F9149-74E1-45F0-BA94-0618442688B5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Mazegame_\Mazegame_.Build.cs">
+      <Filter>Source\Mazegame_</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Mazegame_\Mazegame_.cpp">
+      <Filter>Source\Mazegame_</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mazegame_\Mazegame_.h">
+      <Filter>Source\Mazegame_</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Mazegame_\Mazegame_GameModeBase.cpp">
+      <Filter>Source\Mazegame_</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mazegame_\Mazegame_GameModeBase.h">
+      <Filter>Source\Mazegame_</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
