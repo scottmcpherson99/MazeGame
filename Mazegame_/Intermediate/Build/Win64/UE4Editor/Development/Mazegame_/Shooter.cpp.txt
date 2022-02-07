@@ -1,0 +1,3 @@
+D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\Definitions.Mazegame_.h
+D:\Unreal Projects\GameMaze\Mazegame_\Source\Mazegame_\Shooter.h
+D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Inc\Mazegame_\Shooter.generated.h

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Mazegame_.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{03CABFB7-FEDF-4700-9DA2-D093192F54A1}</UniqueIdentifier>
+      <UniqueIdentifier>{69D4D7C1-DA7A-4608-92F2-197771E5C93E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Mazegame_.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7F84B570-DF8B-4F03-B45B-CF2E00C340E8}</UniqueIdentifier>
+      <UniqueIdentifier>{ED6E935E-63D5-4A1E-B3CE-24A8D0C013A8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Mazegame_">
-      <UniqueIdentifier>{C2CC1B8F-0ABE-4366-A22E-E020C3F55CE7}</UniqueIdentifier>
+      <UniqueIdentifier>{0089D0C1-0250-40EB-84E3-3FCEFBC36CB4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Mazegame_\Arrow.cpp">
       <Filter>Source\Mazegame_</Filter>
@@ -72,6 +72,12 @@
       <Filter>Source\Mazegame_</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Mazegame_\PlayerCharacter.h">
+      <Filter>Source\Mazegame_</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Mazegame_\Shooter.cpp">
+      <Filter>Source\Mazegame_</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mazegame_\Shooter.h">
       <Filter>Source\Mazegame_</Filter>
     </ClInclude>
   </ItemGroup>
