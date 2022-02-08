@@ -35,7 +35,8 @@ protected:
 
 	void LookUp(float value_);
 
-	UPROPERTY()
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Health")
 		float health;
 
 	UPROPERTY()
@@ -53,5 +54,7 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	float GetHealth();
 
 };

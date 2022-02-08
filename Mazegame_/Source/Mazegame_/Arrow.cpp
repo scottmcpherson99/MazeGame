@@ -7,6 +7,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "PlayerCharacter.h"
+#include "GameFramework/DamageType.h"
 
 // Sets default values
 AArrow::AArrow()
@@ -23,6 +24,11 @@ AArrow::AArrow()
 	arrow->SetupAttachment(collisionSphere);
 }
 
+void AArrow::DestroyArrow()
+{
+	this->Destroy();
+}
+
 // Called when the game starts or when spawned
 void AArrow::BeginPlay()
 {
@@ -37,7 +43,22 @@ void AArrow::OnComponentOverlap(UPrimitiveComponent* OverlappedComponent, AActor
 
 	if (playerCharacter)
 	{
-		UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+		if (playerCharacter->GetHealth() > 0)
+		{
+			playerCharacter->LaunchCharacter((FVector(arrow->ComponentVelocity.X, arrow->ComponentVelocity.Y + 200, arrow->ComponentVelocity.Z)), false, false);
+
+			UGameplayStatics::ApplyDamage(playerCharacter, 1.0, this->GetInstigatorController(), this, arrowDamageType);
+			DestroyArrow();
+			if (arrowHitSoundBase)
+			{
+				UGameplayStatics::PlaySoundAtLocation(GetWorld(), arrowHitSoundBase, playerCharacter->GetActorLocation());
+			}
+		}
+	}
+	else
+	{
+		ProjectileMovement->SetVelocityInLocalSpace(FVector(0.0f, 0.0f, 0.0f));
+		GetWorldTimerManager().SetTimer(DestroyActorTimer, this, &AArrow::DestroyArrow, 1.5f);
 	}
 }
 

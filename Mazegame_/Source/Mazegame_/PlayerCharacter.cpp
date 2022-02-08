@@ -24,6 +24,7 @@ APlayerCharacter::APlayerCharacter()
 	camera->bUsePawnControlRotation = false;
 	camera->SetupAttachment(GetRootComponent());
 
+	health = 100;
 	bDoOnce = true;
 }
 
@@ -72,6 +73,11 @@ void APlayerCharacter::Turn(float value_)
 void APlayerCharacter::LookUp(float value_)
 {
 	AddControllerPitchInput(value_);
+}
+
+float APlayerCharacter::GetHealth()
+{
+	return health;
 }
 
 // Called every frame

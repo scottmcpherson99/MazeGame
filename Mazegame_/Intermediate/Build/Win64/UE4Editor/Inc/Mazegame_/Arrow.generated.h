@@ -71,8 +71,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArrow); \
 
 #define Mazegame__Source_Mazegame__Arrow_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AArrow, ProjectileMovement); } \
+	FORCEINLINE static uint32 __PPO__DestroyActorTimer() { return STRUCT_OFFSET(AArrow, DestroyActorTimer); } \
 	FORCEINLINE static uint32 __PPO__collisionSphere() { return STRUCT_OFFSET(AArrow, collisionSphere); } \
-	FORCEINLINE static uint32 __PPO__arrow() { return STRUCT_OFFSET(AArrow, arrow); }
+	FORCEINLINE static uint32 __PPO__arrow() { return STRUCT_OFFSET(AArrow, arrow); } \
+	FORCEINLINE static uint32 __PPO__arrowHitSoundBase() { return STRUCT_OFFSET(AArrow, arrowHitSoundBase); }
 
 
 #define Mazegame__Source_Mazegame__Arrow_h_9_PROLOG
