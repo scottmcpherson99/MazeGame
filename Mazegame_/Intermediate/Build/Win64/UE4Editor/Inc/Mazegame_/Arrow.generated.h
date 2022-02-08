@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef MAZEGAME__Arrow_generated_h
 #error "Arrow.generated.h already included, missing '#pragma once' in Arrow.h"
 #endif
 #define MAZEGAME__Arrow_generated_h
 
 #define Mazegame__Source_Mazegame__Arrow_h_12_SPARSE_DATA
-#define Mazegame__Source_Mazegame__Arrow_h_12_RPC_WRAPPERS
-#define Mazegame__Source_Mazegame__Arrow_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Mazegame__Source_Mazegame__Arrow_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnComponentOverlap);
+
+
+#define Mazegame__Source_Mazegame__Arrow_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnComponentOverlap);
+
+
 #define Mazegame__Source_Mazegame__Arrow_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAArrow(); \

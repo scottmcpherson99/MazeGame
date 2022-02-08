@@ -16,6 +16,8 @@ AShooter::AShooter()
 
 	shooterMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShooterMesh"));
 	shooterMesh->SetupAttachment(SceneComponent);
+
+	ArrowSource = CreateDefaultSubobject<USceneComponent>(TEXT("ArrowSource"));
 }
 
 // Called when the game starts or when spawned
