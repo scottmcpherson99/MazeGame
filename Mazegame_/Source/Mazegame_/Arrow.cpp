@@ -7,6 +7,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "PlayerCharacter.h"
+#include "Shooter.h"
 #include "GameFramework/DamageType.h"
 
 // Sets default values
@@ -40,20 +41,25 @@ void AArrow::BeginPlay()
 void AArrow::OnComponentOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	APlayerCharacter* playerCharacter = Cast<APlayerCharacter>(OtherActor);
-
+	
 	if (playerCharacter)
 	{
 		if (playerCharacter->GetHealth() > 0)
 		{
 			playerCharacter->LaunchCharacter((FVector(arrow->ComponentVelocity.X, arrow->ComponentVelocity.Y + 200, arrow->ComponentVelocity.Z)), false, false);
 
-			UGameplayStatics::ApplyDamage(playerCharacter, 1.0, this->GetInstigatorController(), this, arrowDamageType);
+			playerCharacter->DecrementHealth(30);
 			DestroyArrow();
 			if (arrowHitSoundBase)
 			{
 				UGameplayStatics::PlaySoundAtLocation(GetWorld(), arrowHitSoundBase, playerCharacter->GetActorLocation());
 			}
 		}
+	}
+
+	else if (OtherActor->IsA(Shooter))
+	{
+
 	}
 	else
 	{

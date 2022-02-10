@@ -44,6 +44,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "DamageType")
-		TSubclassOf<class UDamageType> arrowDamageType;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Shooter")
+		TSubclassOf<class AShooter> Shooter;
 };

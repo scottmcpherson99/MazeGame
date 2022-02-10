@@ -57,4 +57,5 @@ public:
 
 	float GetHealth();
 
+	void DecrementHealth(float value_);
 };

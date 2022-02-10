@@ -32,7 +32,6 @@ APlayerCharacter::APlayerCharacter()
 void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 
@@ -78,6 +77,11 @@ void APlayerCharacter::LookUp(float value_)
 float APlayerCharacter::GetHealth()
 {
 	return health;
+}
+
+void APlayerCharacter::DecrementHealth(float value_)
+{
+	health -= value_;
 }
 
 // Called every frame

@@ -26,7 +26,7 @@ void EmptyLinkFunctionForGeneratedCodeArrow() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
+	MAZEGAME__API UClass* Z_Construct_UClass_AShooter_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AArrow::execOnComponentOverlap)
 	{
@@ -162,9 +162,9 @@ void EmptyLinkFunctionForGeneratedCodeArrow() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_arrowHitSoundBase;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_arrowDamageType_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Shooter_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_arrowDamageType;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Shooter;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -221,19 +221,19 @@ void EmptyLinkFunctionForGeneratedCodeArrow() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AArrow_Statics::NewProp_arrowHitSoundBase = { "arrowHitSoundBase", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AArrow, arrowHitSoundBase), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AArrow_Statics::NewProp_arrowHitSoundBase_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArrow_Statics::NewProp_arrowHitSoundBase_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArrow_Statics::NewProp_arrowDamageType_MetaData[] = {
-		{ "Category", "DamageType" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArrow_Statics::NewProp_Shooter_MetaData[] = {
+		{ "Category", "Shooter" },
 		{ "ModuleRelativePath", "Arrow.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AArrow_Statics::NewProp_arrowDamageType = { "arrowDamageType", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AArrow, arrowDamageType), Z_Construct_UClass_UDamageType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AArrow_Statics::NewProp_arrowDamageType_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArrow_Statics::NewProp_arrowDamageType_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AArrow_Statics::NewProp_Shooter = { "Shooter", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AArrow, Shooter), Z_Construct_UClass_AShooter_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AArrow_Statics::NewProp_Shooter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AArrow_Statics::NewProp_Shooter_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AArrow_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArrow_Statics::NewProp_ProjectileMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArrow_Statics::NewProp_DestroyActorTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArrow_Statics::NewProp_collisionSphere,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArrow_Statics::NewProp_arrow,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArrow_Statics::NewProp_arrowHitSoundBase,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArrow_Statics::NewProp_arrowDamageType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AArrow_Statics::NewProp_Shooter,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AArrow_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AArrow>::IsAbstract,
@@ -262,7 +262,7 @@ void EmptyLinkFunctionForGeneratedCodeArrow() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArrow, 1587375656);
+	IMPLEMENT_CLASS(AArrow, 1247993204);
 	template<> MAZEGAME__API UClass* StaticClass<AArrow>()
 	{
 		return AArrow::StaticClass();
