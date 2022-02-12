@@ -64,6 +64,7 @@ void AShooter::Tick(float DeltaTime)
 	FVector shooterMeshSource = FVector(shooterMesh->GetComponentLocation().X, shooterMesh->GetComponentLocation().Y + 50.f, shooterMesh->GetComponentLocation().Z + 130.f);
 
 	UKismetSystemLibrary::SphereTraceSingle(GetWorld(), ArrowSpawn->GetComponentLocation(), ArrowSpawn->GetComponentLocation() + (UKismetMathLibrary::GetForwardVector(ArrowSpawn->GetComponentRotation()) * 3000.f), 10.0f, UEngineTypes::ConvertToTraceType(ECC_Camera), false, Tarrows, EDrawDebugTrace::None, hitActor, true);
+	
 	if (hitActor.GetActor() == UGameplayStatics::GetPlayerCharacter(GetWorld(), 0))
 	{
 		UE_LOG(LogTemp, Warning, TEXT("PlayerLocated"));

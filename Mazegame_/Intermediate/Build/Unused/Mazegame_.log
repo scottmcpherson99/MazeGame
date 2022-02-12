@@ -2,11 +2,11 @@
   Building Mazegame_Editor...
   Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
-    [1/4] Shooter.cpp
-    [2/4] UE4Editor-Mazegame_-0114.lib
-       Creating library D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-0114.lib and object D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-0114.exp
-    [3/4] UE4Editor-Mazegame_-0114.dll
-       Creating library D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-0114.suppressed.lib and object D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-0114.suppressed.exp
+    [1/4] GoalPlatform.cpp
+    [2/4] UE4Editor-Mazegame_-0117.lib
+       Creating library D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-0117.lib and object D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-0117.exp
+    [3/4] UE4Editor-Mazegame_-0117.dll
+       Creating library D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-0117.suppressed.lib and object D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-0117.suppressed.exp
     [4/4] Mazegame_Editor.target
-  Total time in Parallel executor: 1.33 seconds
-  Total execution time: 1.76 seconds
+  Total time in Parallel executor: 24.88 seconds
+  Total execution time: 25.45 seconds

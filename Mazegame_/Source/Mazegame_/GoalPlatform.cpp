@@ -5,6 +5,10 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/SceneComponent.h"
 #include "Components/SphereComponent.h"
+#include "PlayerCharacter.h"
+#include "Kismet/KismetSystemlibrary.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
+
 
 // Sets default values
 AGoalPlatform::AGoalPlatform()
@@ -26,7 +30,17 @@ AGoalPlatform::AGoalPlatform()
 void AGoalPlatform::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	collisionSphere->OnComponentBeginOverlap.AddDynamic(this, &AGoalPlatform::OnComponentOverlap);
+}
+
+void AGoalPlatform::OnComponentOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	APlayerCharacter* playerCharacter = Cast<APlayerCharacter>(OtherActor);
+
+	if (playerCharacter)
+	{
+		UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+	}
 }
 
 // Called every frame
