@@ -4,6 +4,7 @@
 #include "PlayerCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
+#include "KeyPlatform.h"
 
 void APlayerCharacter::ResetDoOnce()
 {
@@ -25,6 +26,7 @@ APlayerCharacter::APlayerCharacter()
 	camera->SetupAttachment(GetRootComponent());
 
 	health = 100;
+	NumberOfKeys = 0;
 	bDoOnce = true;
 }
 
@@ -74,6 +76,19 @@ void APlayerCharacter::LookUp(float value_)
 	AddControllerPitchInput(value_);
 }
 
+void APlayerCharacter::CollectKey()
+{
+	AKeyPlatform* key_ = Cast<AKeyPlatform>(currentKey);
+
+	if (key_)
+	{
+		if (key_->DestroyKey() == true)
+		{
+			ChangeKeyValue(1);
+		}
+	}
+}
+
 float APlayerCharacter::GetHealth()
 {
 	return health;
@@ -84,6 +99,10 @@ void APlayerCharacter::DecrementHealth(float value_)
 	health -= value_;
 }
 
+void APlayerCharacter::ChangeKeyValue(float value_)
+{
+	NumberOfKeys += value_;
+}
 // Called every frame
 void APlayerCharacter::Tick(float DeltaTime)
 {
@@ -101,5 +120,7 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 	PlayerInputComponent->BindAxis("Turn", this, &APlayerCharacter::Turn);
 	PlayerInputComponent->BindAxis("LookUp", this, &APlayerCharacter::LookUp);
+
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &APlayerCharacter::CollectKey);
 }
 

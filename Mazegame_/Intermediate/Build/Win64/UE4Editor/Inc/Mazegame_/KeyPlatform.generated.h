@@ -8,14 +8,27 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef MAZEGAME__KeyPlatform_generated_h
 #error "KeyPlatform.generated.h already included, missing '#pragma once' in KeyPlatform.h"
 #endif
 #define MAZEGAME__KeyPlatform_generated_h
 
 #define Mazegame__Source_Mazegame__KeyPlatform_h_12_SPARSE_DATA
-#define Mazegame__Source_Mazegame__KeyPlatform_h_12_RPC_WRAPPERS
-#define Mazegame__Source_Mazegame__KeyPlatform_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Mazegame__Source_Mazegame__KeyPlatform_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnComponentEndOverlap); \
+	DECLARE_FUNCTION(execOnComponentOverlap);
+
+
+#define Mazegame__Source_Mazegame__KeyPlatform_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnComponentEndOverlap); \
+	DECLARE_FUNCTION(execOnComponentOverlap);
+
+
 #define Mazegame__Source_Mazegame__KeyPlatform_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAKeyPlatform(); \

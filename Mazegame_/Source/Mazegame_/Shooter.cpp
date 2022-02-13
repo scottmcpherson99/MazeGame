@@ -67,8 +67,6 @@ void AShooter::Tick(float DeltaTime)
 	
 	if (hitActor.GetActor() == UGameplayStatics::GetPlayerCharacter(GetWorld(), 0))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("PlayerLocated"));
-
 		if (bDoOnce == true)
 		{
 			GetWorldTimerManager().SetTimer(shootArrowTimer, this, &AShooter::ShootArrow, 0.01f, false);

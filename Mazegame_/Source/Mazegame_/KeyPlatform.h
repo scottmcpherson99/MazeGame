@@ -29,9 +29,18 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Door")
 		class UStaticMeshComponent* keyMesh;
+	
+	UFUNCTION()
+		void OnComponentOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
+	UFUNCTION()
+		void OnComponentEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	class APlayerCharacter* player_;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+
+	bool DestroyKey();
 };

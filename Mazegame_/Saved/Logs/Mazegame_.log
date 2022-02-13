@@ -1391,3 +1391,571 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.12-22.50.12:350][928]AssetCheck: New page: Asset Save: multiple assets
 [2022.02.12-22.50.12:350][928]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Level1_BuiltData.Level1_BuiltData
 [2022.02.12-22.50.12:350][928]LogContentValidation: Display: Validating World /Game/Level1.Level1
+[2022.02.12-22.56.33:977][177]LogHotReload: New module detected: UE4Editor-Mazegame_-0119.dll
+[2022.02.12-22.56.34:656][180]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.12-22.56.34:693][180]LogClass: Could not find existing class KeyPlatform in package /Script/Mazegame_ for HotReload, assuming new class
+[2022.02.12-22.56.34:693][180]LogClass: Function OnComponentOverlap is new.
+[2022.02.12-22.56.34:698][180]LogHotReload: Re-instancing KeyPlatform after hot-reload.
+[2022.02.12-22.56.34:756][180]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0002 seconds. Added 8 classes and 2 folders.
+[2022.02.12-22.56.34:756][180]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.02.12-22.56.34:778][180]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0071 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-22.56.34:783][180]Display: HotReload took  0.1s.
+[2022.02.12-23.00.12:655][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.02.12-23.00.12:657][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="D:/Unreal Projects/GameMaze/Mazegame_/Saved/Autosaves/Game/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.02.12-23.00.12:663][831]LogSavePackage: Moving 'D:/Unreal Projects/GameMaze/Mazegame_/Saved/Level1_Auto1E4A05BD74EC143957C2E068E912E3406.tmp' to 'D:/Unreal Projects/GameMaze/Mazegame_/Saved/Autosaves/Game/Level1_Auto1.umap'
+[2022.02.12-23.00.12:668][831]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.017
+[2022.02.12-23.00.12:668][831]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.017
+[2022.02.12-23.27.55:121][799]LogHotReload: New module detected: UE4Editor-Mazegame_-0120.dll
+[2022.02.12-23.27.55:801][802]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.12-23.27.55:840][802]LogClass: Could not find existing class KeyPlatform in package /Script/Mazegame_ for HotReload, assuming new class
+[2022.02.12-23.27.55:840][802]LogClass: Function OnComponentEndOverlap is new.
+[2022.02.12-23.27.55:840][802]LogClass: Function OnComponentOverlap is new.
+[2022.02.12-23.27.55:840][802]LogClass: Could not find existing class PlayerCharacter in package /Script/Mazegame_ for HotReload, assuming new class
+[2022.02.12-23.27.55:848][802]LogHotReload: Re-instancing KeyPlatform after hot-reload.
+[2022.02.12-23.27.55:904][802]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2022.02.12-23.27.55:911][802]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.27.55:912][802]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.27.55:934][802]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0067 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.27.55:936][802]Display: HotReload took  0.1s.
+[2022.02.12-23.30.30:978][266]LogHotReload: New module detected: UE4Editor-Mazegame_-0121.dll
+[2022.02.12-23.30.31:657][269]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.12-23.30.31:693][269]LogClass: Could not find existing class PlayerCharacter in package /Script/Mazegame_ for HotReload, assuming new class
+[2022.02.12-23.30.31:700][269]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2022.02.12-23.30.31:708][269]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0002 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.30.31:708][269]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.30.31:730][269]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0073 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.30.31:733][269]Display: HotReload took  0.1s.
+[2022.02.12-23.30.35:017][460]Candidate modules for hot reload:
+[2022.02.12-23.30.35:017][460]  Mazegame_
+[2022.02.12-23.30.35:017][460]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Mazegame_,5397 Mazegame_Editor Win64 Development -Project="D:/Unreal Projects/GameMaze/Mazegame_/Mazegame_.uproject" "D:/Unreal Projects/GameMaze/Mazegame_/Mazegame_.uproject"  -IgnoreJunk]
+[2022.02.12-23.30.35:018][460]Warning: Starting HotReload took  0.0s.
+[2022.02.12-23.30.36:191][536]CompilerResultsLog: New page: Compilation - 12 Feb 2022, 23:30:36
+[2022.02.12-23.30.36:191][536]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\GameMaze).
+[2022.02.12-23.30.36:191][536]CompilerResultsLog: Building Mazegame_Editor...
+[2022.02.12-23.30.36:191][536]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.12-23.30.36:191][536]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.02.12-23.30.36:191][536]CompilerResultsLog:   [1/3] UE4Editor-Mazegame_-5397.lib
+[2022.02.12-23.30.36:191][536]CompilerResultsLog:      Creating library D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-5397.lib and object D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-5397.exp
+[2022.02.12-23.30.36:191][536]CompilerResultsLog:   [2/3] UE4Editor-Mazegame_-5397.dll
+[2022.02.12-23.30.36:191][536]CompilerResultsLog:      Creating library D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-5397.suppressed.lib and object D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-5397.suppressed.exp
+[2022.02.12-23.30.36:192][536]CompilerResultsLog:   [3/3] Mazegame_Editor.target
+[2022.02.12-23.30.36:192][536]CompilerResultsLog: Total time in Parallel executor: 0.70 seconds
+[2022.02.12-23.30.36:192][536]CompilerResultsLog: Total execution time: 1.12 seconds
+[2022.02.12-23.30.36:192][536]LogMainFrame: MainFrame: Module compiling took 1.176 seconds
+[2022.02.12-23.30.36:212][536]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0002 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.30.36:213][536]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.30.36:235][536]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0078 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.30.36:235][536]Display: HotReload took  1.2s.
+[2022.02.12-23.30.53:576][471]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PlayerCharacter/BP_PlayerCharacter.BP_PlayerCharacter
+[2022.02.12-23.30.54:027][471]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2022.02.12-23.30.54:720][471]LogSlate: Took 0.003501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.02.12-23.31.02:107][207]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_KeyPlatform_C /Game/Level1.Level1:PersistentLevel.BP_KeyPlatform_2) from referencer (BP_PlayerCharacter_C /Game/PlayerCharacter/BP_PlayerCharacter.Default__BP_PlayerCharacter_C).  Import failed...
+[2022.02.12-23.31.02:108][207]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_KeyPlatform_C /Game/Level1.Level1:PersistentLevel.BP_KeyPlatform_2) from referencer (BP_PlayerCharacter_C /Engine/Transient.World_7:PersistentLevel.BP_PlayerCharacter_C_0).  Import failed...
+[2022.02.12-23.31.04:457][437]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_KeyPlatform_C /Game/Level1.Level1:PersistentLevel.BP_KeyPlatform_2) from referencer (BP_PlayerCharacter_C /Game/PlayerCharacter/BP_PlayerCharacter.Default__BP_PlayerCharacter_C).  Import failed...
+[2022.02.12-23.31.04:457][437]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_KeyPlatform_C /Game/Level1.Level1:PersistentLevel.BP_KeyPlatform_2) from referencer (BP_PlayerCharacter_C /Engine/Transient.World_7:PersistentLevel.BP_PlayerCharacter_C_0).  Import failed...
+[2022.02.12-23.31.05:998][603]BlueprintLog: New page: Compile BP_PlayerCharacter
+[2022.02.12-23.31.06:031][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.02.12-23.31.06:067][603]LogSlate: Took 0.004972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.02.12-23.31.06:390][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerCharacter/BP_PlayerCharacter" FILE="D:/Unreal Projects/GameMaze/Mazegame_/Content/PlayerCharacter/BP_PlayerCharacter.uasset" SILENT=true
+[2022.02.12-23.31.06:397][633]LogSavePackage: Moving 'D:/Unreal Projects/GameMaze/Mazegame_/Saved/BP_PlayerCharacterC24E74164018459CA54891A60E73B853.tmp' to 'D:/Unreal Projects/GameMaze/Mazegame_/Content/PlayerCharacter/BP_PlayerCharacter.uasset'
+[2022.02.12-23.31.06:407][633]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2022.02.12-23.31.06:407][633]LogContentValidation: Display: Validating Blueprint /Game/PlayerCharacter/BP_PlayerCharacter.BP_PlayerCharacter
+[2022.02.12-23.31.14:622][512]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_KeyPlatform_C /Game/Level1.Level1:PersistentLevel.BP_KeyPlatform_2) from referencer (BP_PlayerCharacter_C /Game/PlayerCharacter/BP_PlayerCharacter.Default__BP_PlayerCharacter_C).  Import failed...
+[2022.02.12-23.31.14:622][512]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_KeyPlatform_C /Game/Level1.Level1:PersistentLevel.BP_KeyPlatform_2) from referencer (BP_PlayerCharacter_C /Engine/Transient.World_7:PersistentLevel.BP_PlayerCharacter_C_0).  Import failed...
+[2022.02.12-23.31.17:745][845]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.12-23.31.17:749][845]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.02.12-23.31.17:749][845]LogPlayLevel: [PlayLevel] Compiling BP_PlayerCharacter before play...
+[2022.02.12-23.31.17:785][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.02.12-23.31.17:785][845]LogPlayLevel: PlayLevel: Blueprint regeneration took 36 ms (1 blueprints)
+[2022.02.12-23.31.17:785][845]PIE: New page: PIE session: Level1 (12 Feb 2022, 23:31:17)
+[2022.02.12-23.31.17:786][845]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2022.02.12-23.31.17:787][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001742s)
+[2022.02.12-23.31.17:788][845]LogAIModule: Creating AISystem for world Level1
+[2022.02.12-23.31.17:788][845]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2022.02.12-23.31.17:789][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002833s)
+[2022.02.12-23.31.17:800][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.02.12-23.31.17:800][845]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.02.12-23.31.17:800][845]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.12-23.31.17:800][845]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.12-23.31.17:800][845]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.12-23.31.17:800][845]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.12-23.31.17:800][845]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.12-23.31.17:800][845]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.12-23.31.17:800][845]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.12-23.31.17:800][845]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.12-23.31.17:801][845]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.12-23.31.17:801][845]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.12-23.31.17:803][845]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.12-23.31.17:803][845]LogAudioMixer: Display: 1: FrontRight
+[2022.02.12-23.31.17:825][845]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.12-23.31.17:825][845]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.12-23.31.17:825][845]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.12-23.31.17:825][845]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.12-23.31.17:825][845]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.12-23.31.17:825][845]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.12-23.31.17:825][845]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.12-23.31.17:837][845]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.12-23.31.17:837][845]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.12-23.31.17:837][845]LogInit: FAudioDevice initialized.
+[2022.02.12-23.31.17:837][845]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level1'.
+[2022.02.12-23.31.17:841][845]LogLoad: Game class is 'MyMazegame_GameModeBase_C'
+[2022.02.12-23.31.17:843][845]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.02.12-23.31.17
+[2022.02.12-23.31.17:843][845]LogWorld: Bringing up level for play took: 0.000576
+[2022.02.12-23.31.17:843][845]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.02.12-23.31.17:845][845]PIE: Server logged in
+[2022.02.12-23.31.17:846][845]PIE: Play in editor total start time 0.098 seconds.
+[2022.02.12-23.31.19:952][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.12-23.31.19:952][ 84]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2022.02.12-23.31.19:952][ 84]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.02.12-23.31.19:952][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.31.19:961][ 84]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.12-23.31.19:982][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.31.19:994][ 84]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.12-23.31.19:994][ 84]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.12-23.31.19:995][ 84]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.12-23.31.20:011][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.02.12-23.31.20:036][ 85]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.02.12-23.31.24:010][536]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_KeyPlatform.BP_KeyPlatform
+[2022.02.12-23.31.25:768][660]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.02.12-23.31.25:768][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.31.25:840][660]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_KeyPlatform.BP_KeyPlatform
+[2022.02.12-23.31.27:748][840]LogRenderer: Reallocating scene render targets to support 1332x692 Format 10 NumSamples 1 (Frame:1).
+[2022.02.12-23.31.56:510][981]BlueprintLog: New page: Compile BP_KeyPlatform
+[2022.02.12-23.31.56:590][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.02.12-23.31.57:061][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_KeyPlatform" FILE="D:/Unreal Projects/GameMaze/Mazegame_/Content/Blueprints/BP_KeyPlatform.uasset" SILENT=true
+[2022.02.12-23.31.57:067][ 17]LogSavePackage: Moving 'D:/Unreal Projects/GameMaze/Mazegame_/Saved/BP_KeyPlatform2485B2184E31D39105C5BEB8FB8A7CFC.tmp' to 'D:/Unreal Projects/GameMaze/Mazegame_/Content/Blueprints/BP_KeyPlatform.uasset'
+[2022.02.12-23.31.57:563][ 17]AssetCheck: New page: Asset Save: BP_KeyPlatform
+[2022.02.12-23.31.57:563][ 17]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_KeyPlatform.BP_KeyPlatform
+[2022.02.12-23.32.00:520][343]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.12-23.32.00:524][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.12-23.32.00:524][343]PIE: New page: PIE session: Level1 (12 Feb 2022, 23:32:00)
+[2022.02.12-23.32.00:524][343]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2022.02.12-23.32.00:526][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001664s)
+[2022.02.12-23.32.00:526][343]LogAIModule: Creating AISystem for world Level1
+[2022.02.12-23.32.00:526][343]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2022.02.12-23.32.00:526][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.002402s)
+[2022.02.12-23.32.00:557][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.02.12-23.32.00:558][343]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.02.12-23.32.00:558][343]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.12-23.32.00:558][343]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.12-23.32.00:558][343]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.12-23.32.00:558][343]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.12-23.32.00:558][343]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.12-23.32.00:558][343]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.12-23.32.00:558][343]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.12-23.32.00:558][343]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.12-23.32.00:559][343]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.12-23.32.00:559][343]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.12-23.32.00:560][343]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.12-23.32.00:560][343]LogAudioMixer: Display: 1: FrontRight
+[2022.02.12-23.32.00:597][343]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.12-23.32.00:597][343]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.12-23.32.00:597][343]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.12-23.32.00:597][343]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.12-23.32.00:598][343]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.12-23.32.00:598][343]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.12-23.32.00:598][343]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.12-23.32.00:608][343]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.12-23.32.00:608][343]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.12-23.32.00:608][343]LogInit: FAudioDevice initialized.
+[2022.02.12-23.32.00:608][343]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level1'.
+[2022.02.12-23.32.00:618][343]LogLoad: Game class is 'MyMazegame_GameModeBase_C'
+[2022.02.12-23.32.00:620][343]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.02.12-23.32.00
+[2022.02.12-23.32.00:620][343]LogWorld: Bringing up level for play took: 0.000644
+[2022.02.12-23.32.00:620][343]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.02.12-23.32.00:622][343]PIE: Server logged in
+[2022.02.12-23.32.00:622][343]PIE: Play in editor total start time 0.099 seconds.
+[2022.02.12-23.32.05:231][886]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:238][887]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:247][888]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:255][889]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:264][890]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:272][891]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:280][892]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:289][893]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:297][894]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:306][895]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:314][896]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:322][897]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:331][898]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:339][899]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:347][900]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:356][901]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:364][902]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:372][903]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:381][904]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:755][949]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:764][950]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:772][951]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:781][952]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:789][953]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:797][954]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:805][955]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:814][956]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:822][957]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:830][958]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:839][959]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:847][960]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:856][961]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:864][962]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:872][963]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:880][964]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:889][965]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:897][966]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:906][967]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:914][968]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:922][969]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:930][970]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.05:939][971]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:855][441]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:864][442]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:872][443]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:881][444]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:889][445]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:898][446]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:906][447]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:914][448]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:922][449]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:931][450]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:939][451]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:947][452]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:956][453]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:964][454]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:972][455]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:980][456]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:989][457]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.09:997][458]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:006][459]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:264][490]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:272][491]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:281][492]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:289][493]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:297][494]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:305][495]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:314][496]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:322][497]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:330][498]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:339][499]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:347][500]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:355][501]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:364][502]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:372][503]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:381][504]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:389][505]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:397][506]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:406][507]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:414][508]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:422][509]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:430][510]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.10:439][511]LogTemp: Warning: PlayerLocated
+[2022.02.12-23.32.13:452][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.12-23.32.13:452][868]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2022.02.12-23.32.13:452][868]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.02.12-23.32.13:452][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.32.13:458][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.12-23.32.13:478][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.32.13:489][868]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.12-23.32.13:489][868]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.12-23.32.13:491][868]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.12-23.32.13:504][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.12-23.32.13:506][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.02.12-23.32.13:530][869]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.02.12-23.32.44:607][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.02.12-23.32.44:607][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="D:/Unreal Projects/GameMaze/Mazegame_/Saved/Autosaves/Game/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.02.12-23.32.44:614][776]LogSavePackage: Moving 'D:/Unreal Projects/GameMaze/Mazegame_/Saved/Level1_Auto2D6A86C1A4C50D56CAFFCD48D0BFB71BA.tmp' to 'D:/Unreal Projects/GameMaze/Mazegame_/Saved/Autosaves/Game/Level1_Auto2.umap'
+[2022.02.12-23.32.44:619][776]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level1' took 0.027
+[2022.02.12-23.32.44:620][776]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.027
+[2022.02.12-23.32.44:620][776]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlayerCharacter/BP_PlayerCharacter] ([1] browsable assets)...
+[2022.02.12-23.32.44:620][776]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/BP_PlayerCharacter]
+[2022.02.12-23.32.44:624][776]LogSavePackage: Moving 'D:/Unreal Projects/GameMaze/Mazegame_/Saved/BP_PlayerCharacter_Auto251C02C3942E6E0E763A30DAA2DC7598F.tmp' to 'D:/Unreal Projects/GameMaze/Mazegame_/Saved/Autosaves/Game/PlayerCharacter/BP_PlayerCharacter_Auto2.uasset'
+[2022.02.12-23.32.44:624][776]LogFileHelpers: Auto-saving content packages took 0.005
+[2022.02.12-23.33.23:618][893]LogHotReload: New module detected: UE4Editor-Mazegame_-0123.dll
+[2022.02.12-23.33.24:296][896]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.12-23.33.24:334][896]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.33.24:336][896]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.33.24:385][896]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0069 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.33.24:389][896]Display: HotReload took  0.1s.
+[2022.02.12-23.33.28:015][960]Candidate modules for hot reload:
+[2022.02.12-23.33.28:015][960]  Mazegame_
+[2022.02.12-23.33.28:015][960]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Mazegame_,8185 Mazegame_Editor Win64 Development -Project="D:/Unreal Projects/GameMaze/Mazegame_/Mazegame_.uproject" "D:/Unreal Projects/GameMaze/Mazegame_/Mazegame_.uproject"  -IgnoreJunk]
+[2022.02.12-23.33.28:016][960]Warning: Starting HotReload took  0.0s.
+[2022.02.12-23.33.29:209][ 47]CompilerResultsLog: New page: Compilation - 12 Feb 2022, 23:33:29
+[2022.02.12-23.33.29:209][ 47]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\GameMaze).
+[2022.02.12-23.33.29:209][ 47]CompilerResultsLog: Building Mazegame_Editor...
+[2022.02.12-23.33.29:209][ 47]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.12-23.33.29:209][ 47]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.02.12-23.33.29:210][ 47]CompilerResultsLog:   [1/3] UE4Editor-Mazegame_-8185.lib
+[2022.02.12-23.33.29:210][ 47]CompilerResultsLog:      Creating library D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-8185.lib and object D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-8185.exp
+[2022.02.12-23.33.29:210][ 47]CompilerResultsLog:   [2/3] UE4Editor-Mazegame_-8185.dll
+[2022.02.12-23.33.29:210][ 47]CompilerResultsLog:      Creating library D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-8185.suppressed.lib and object D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-8185.suppressed.exp
+[2022.02.12-23.33.29:210][ 47]CompilerResultsLog:   [3/3] Mazegame_Editor.target
+[2022.02.12-23.33.29:210][ 47]CompilerResultsLog: Total time in Parallel executor: 0.71 seconds
+[2022.02.12-23.33.29:210][ 47]CompilerResultsLog: Total execution time: 1.15 seconds
+[2022.02.12-23.33.29:210][ 47]LogMainFrame: MainFrame: Module compiling took 1.197 seconds
+[2022.02.12-23.33.29:240][ 47]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0002 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.33.29:243][ 47]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.33.29:300][ 47]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0059 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.33.29:300][ 47]Display: HotReload took  1.3s.
+[2022.02.12-23.33.30:307][137]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.12-23.33.30:310][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.12-23.33.30:310][137]PIE: New page: PIE session: Level1 (12 Feb 2022, 23:33:30)
+[2022.02.12-23.33.30:341][137]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2022.02.12-23.33.30:343][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002078s)
+[2022.02.12-23.33.30:355][137]LogAIModule: Creating AISystem for world Level1
+[2022.02.12-23.33.30:355][137]LogPlayLevel: PIE: World Init took: (0.012390s)
+[2022.02.12-23.33.30:355][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.014627s)
+[2022.02.12-23.33.30:407][137]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.02.12-23.33.30:408][137]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.02.12-23.33.30:408][137]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.12-23.33.30:408][137]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.12-23.33.30:408][137]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.12-23.33.30:408][137]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.12-23.33.30:408][137]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.12-23.33.30:408][137]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.12-23.33.30:408][137]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.12-23.33.30:408][137]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.12-23.33.30:409][137]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.12-23.33.30:409][137]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.12-23.33.30:410][137]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.12-23.33.30:410][137]LogAudioMixer: Display: 1: FrontRight
+[2022.02.12-23.33.30:432][137]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.12-23.33.30:432][137]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.12-23.33.30:432][137]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.12-23.33.30:432][137]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.12-23.33.30:432][137]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.12-23.33.30:432][137]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.12-23.33.30:432][137]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.12-23.33.30:443][137]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.12-23.33.30:443][137]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.12-23.33.30:443][137]LogInit: FAudioDevice initialized.
+[2022.02.12-23.33.30:443][137]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level1'.
+[2022.02.12-23.33.30:452][137]LogLoad: Game class is 'MyMazegame_GameModeBase_C'
+[2022.02.12-23.33.30:453][137]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.02.12-23.33.30
+[2022.02.12-23.33.30:453][137]LogWorld: Bringing up level for play took: 0.000615
+[2022.02.12-23.33.30:453][137]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.02.12-23.33.30:455][137]PIE: Server logged in
+[2022.02.12-23.33.30:455][137]PIE: Play in editor total start time 0.145 seconds.
+[2022.02.12-23.33.32:331][361]LogTemp: Warning: Player Begun Overlap
+[2022.02.12-23.33.34:007][562]LogTemp: Warning: Player End Overlap
+[2022.02.12-23.33.35:863][775]LogTemp: Warning: Player Begun Overlap
+[2022.02.12-23.33.36:605][864]LogTemp: Warning: Player End Overlap
+[2022.02.12-23.33.37:552][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.12-23.33.37:552][973]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2022.02.12-23.33.37:552][973]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.02.12-23.33.37:552][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.33.37:563][973]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.12-23.33.37:583][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.33.37:598][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.12-23.33.37:598][973]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.12-23.33.37:599][973]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.12-23.33.37:618][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.02.12-23.33.37:644][974]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.02.12-23.42.51:602][911]LogHotReload: New module detected: UE4Editor-Mazegame_-0125.dll
+[2022.02.12-23.42.52:617][915]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.12-23.42.52:678][915]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0002 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.42.52:681][915]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.42.52:755][915]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0065 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.42.52:758][915]Display: HotReload took  0.1s.
+[2022.02.12-23.43.08:649][ 15]Candidate modules for hot reload:
+[2022.02.12-23.43.08:649][ 15]  Mazegame_
+[2022.02.12-23.43.08:649][ 15]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Mazegame_,6374 Mazegame_Editor Win64 Development -Project="D:/Unreal Projects/GameMaze/Mazegame_/Mazegame_.uproject" "D:/Unreal Projects/GameMaze/Mazegame_/Mazegame_.uproject"  -IgnoreJunk]
+[2022.02.12-23.43.08:651][ 15]Warning: Starting HotReload took  0.0s.
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog: New page: Compilation - 12 Feb 2022, 23:43:09
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\GameMaze).
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog: Building Mazegame_Editor...
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog:   [1/3] UE4Editor-Mazegame_-6374.lib
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog:      Creating library D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-6374.lib and object D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-6374.exp
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog:   [2/3] UE4Editor-Mazegame_-6374.dll
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog:      Creating library D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-6374.suppressed.lib and object D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Development\Mazegame_\UE4Editor-Mazegame_-6374.suppressed.exp
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog:   [3/3] Mazegame_Editor.target
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog: Total time in Parallel executor: 0.67 seconds
+[2022.02.12-23.43.09:828][ 80]CompilerResultsLog: Total execution time: 1.11 seconds
+[2022.02.12-23.43.09:828][ 80]LogMainFrame: MainFrame: Module compiling took 1.182 seconds
+[2022.02.12-23.43.09:862][ 80]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0002 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.43.09:865][ 80]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.43.09:940][ 80]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0061 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.43.09:940][ 80]Display: HotReload took  1.3s.
+[2022.02.12-23.43.10:653][130]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.12-23.43.10:657][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.12-23.43.10:657][130]PIE: New page: PIE session: Level1 (12 Feb 2022, 23:43:10)
+[2022.02.12-23.43.10:690][130]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2022.02.12-23.43.10:692][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001788s)
+[2022.02.12-23.43.10:695][130]LogAIModule: Creating AISystem for world Level1
+[2022.02.12-23.43.10:695][130]LogPlayLevel: PIE: World Init took: (0.003352s)
+[2022.02.12-23.43.10:695][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.005255s)
+[2022.02.12-23.43.10:761][130]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2022.02.12-23.43.10:762][130]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.02.12-23.43.10:762][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.12-23.43.10:762][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.12-23.43.10:762][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.12-23.43.10:762][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.12-23.43.10:762][130]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.12-23.43.10:762][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.12-23.43.10:762][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.12-23.43.10:762][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.12-23.43.10:762][130]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.12-23.43.10:762][130]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.12-23.43.10:765][130]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.12-23.43.10:765][130]LogAudioMixer: Display: 1: FrontRight
+[2022.02.12-23.43.10:787][130]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.12-23.43.10:787][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.12-23.43.10:787][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.12-23.43.10:787][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.12-23.43.10:787][130]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.12-23.43.10:787][130]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.12-23.43.10:787][130]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.12-23.43.10:798][130]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.12-23.43.10:798][130]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.12-23.43.10:798][130]LogInit: FAudioDevice initialized.
+[2022.02.12-23.43.10:798][130]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level1'.
+[2022.02.12-23.43.10:804][130]LogLoad: Game class is 'MyMazegame_GameModeBase_C'
+[2022.02.12-23.43.10:805][130]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.02.12-23.43.10
+[2022.02.12-23.43.10:805][130]LogWorld: Bringing up level for play took: 0.000780
+[2022.02.12-23.43.10:805][130]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.02.12-23.43.10:807][130]PIE: Server logged in
+[2022.02.12-23.43.10:808][130]PIE: Play in editor total start time 0.152 seconds.
+[2022.02.12-23.43.12:707][351]LogTemp: Warning: Player Begun Overlap
+[2022.02.12-23.43.14:460][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.12-23.43.14:460][557]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2022.02.12-23.43.14:461][557]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.02.12-23.43.14:461][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.43.14:470][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.12-23.43.14:491][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.43.14:509][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.12-23.43.14:509][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.12-23.43.14:510][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.12-23.43.14:539][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.02.12-23.43.14:566][558]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.02.12-23.43.18:421][902]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.02.12-23.43.32:455][675]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.12-23.43.32:458][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.12-23.43.32:458][675]PIE: New page: PIE session: Level1 (12 Feb 2022, 23:43:32)
+[2022.02.12-23.43.32:490][675]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2022.02.12-23.43.32:492][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001885s)
+[2022.02.12-23.43.32:492][675]LogAIModule: Creating AISystem for world Level1
+[2022.02.12-23.43.32:493][675]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2022.02.12-23.43.32:493][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.003090s)
+[2022.02.12-23.43.32:534][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.02.12-23.43.32:535][675]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.02.12-23.43.32:535][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.12-23.43.32:535][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.12-23.43.32:535][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.12-23.43.32:535][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.12-23.43.32:535][675]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.12-23.43.32:535][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.12-23.43.32:535][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.12-23.43.32:535][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.12-23.43.32:535][675]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.12-23.43.32:535][675]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.12-23.43.32:537][675]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.12-23.43.32:537][675]LogAudioMixer: Display: 1: FrontRight
+[2022.02.12-23.43.32:558][675]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.02.12-23.43.32:558][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.12-23.43.32:558][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.12-23.43.32:558][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.12-23.43.32:558][675]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.12-23.43.32:559][675]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.12-23.43.32:559][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.12-23.43.32:570][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.12-23.43.32:570][675]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.12-23.43.32:570][675]LogInit: FAudioDevice initialized.
+[2022.02.12-23.43.32:570][675]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level1'.
+[2022.02.12-23.43.32:577][675]LogLoad: Game class is 'MyMazegame_GameModeBase_C'
+[2022.02.12-23.43.32:578][675]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2022.02.12-23.43.32
+[2022.02.12-23.43.32:578][675]LogWorld: Bringing up level for play took: 0.000701
+[2022.02.12-23.43.32:578][675]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.02.12-23.43.32:580][675]PIE: Server logged in
+[2022.02.12-23.43.32:581][675]PIE: Play in editor total start time 0.123 seconds.
+[2022.02.12-23.43.36:244][112]LogTemp: Warning: Player Begun Overlap
+[2022.02.12-23.43.39:335][483]LogTemp: Warning: Player End Overlap
+[2022.02.12-23.43.39:960][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.12-23.43.39:961][552]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level1
+[2022.02.12-23.43.39:961][552]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2022.02.12-23.43.39:961][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.43.39:968][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.12-23.43.39:992][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.12-23.43.40:007][552]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.12-23.43.40:009][552]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.12-23.43.40:010][552]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.12-23.43.40:023][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.12-23.43.40:029][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.02.12-23.43.40:058][553]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.02.12-23.45.14:085][158]LogHotReload: New module detected: UE4Editor-Mazegame_-0128.dll
+[2022.02.12-23.45.14:430][160]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.12-23.45.14:486][160]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0002 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.45.14:489][160]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.45.14:564][160]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0081 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.45.14:565][160]Display: HotReload took  0.1s.
+[2022.02.12-23.48.45:059][789]LogHotReload: New module detected: UE4Editor-Mazegame_-0131.dll
+[2022.02.12-23.48.45:737][792]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.12-23.48.45:780][792]LogClass: Could not find existing class PlayerCharacter in package /Script/Mazegame_ for HotReload, assuming new class
+[2022.02.12-23.48.45:791][792]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2022.02.12-23.48.45:840][792]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0002 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.48.45:843][792]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.48.45:929][792]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0079 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.48.45:932][792]Display: HotReload took  0.2s.
+[2022.02.12-23.50.16:014][ 61]LogHotReload: New module detected: UE4Editor-Mazegame_-0132.dll
+[2022.02.12-23.50.17:705][ 67]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.12-23.50.17:750][ 67]LogClass: Could not find existing class PlayerCharacter in package /Script/Mazegame_ for HotReload, assuming new class
+[2022.02.12-23.50.17:761][ 67]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2022.02.12-23.50.17:809][ 67]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0002 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.50.17:813][ 67]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.50.17:904][ 67]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0066 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.50.17:906][ 67]Display: HotReload took  0.2s.
+[2022.02.12-23.53.04:202][564]LogHotReload: New module detected: UE4Editor-Mazegame_-0133.dll
+[2022.02.12-23.53.05:212][568]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.12-23.53.05:256][568]LogClass: Could not find existing class PlayerCharacter in package /Script/Mazegame_ for HotReload, assuming new class
+[2022.02.12-23.53.05:268][568]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2022.02.12-23.53.05:316][568]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Mazegame_' in 0.0002 seconds. Added 8 classes and 2 folders.
+[2022.02.12-23.53.05:320][568]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.02.12-23.53.05:423][568]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0070 seconds. Added 3609 classes and 861 folders.
+[2022.02.12-23.53.05:425][568]Display: HotReload took  0.2s.
+[2022.02.12-23.53.40:591][673]LogHotReload: New module detected: UE4Editor-Mazegame_-0134.dll
+[2022.02.12-23.53.41:271][676]LogHotReload: Starting Hot-Reload from IDE
+[2022.02.12-23.53.41:321][676]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.02.12-23.53.41:321][676]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2022.02.12-23.53.45:892][676]LogWindows: Error: === Critical error: ===
+[2022.02.12-23.53.45:892][676]LogWindows: Error: 
+[2022.02.12-23.53.45:892][676]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp] [Line: 2381] 
+[2022.02.12-23.53.45:892][676]LogWindows: Error: Objects have the same fully qualified name but different paths.
+[2022.02.12-23.53.45:892][676]LogWindows: Error: 	New Object: PlayerCharacter /Engine/Transient.Default__PlayerCharacter
+[2022.02.12-23.53.45:892][676]LogWindows: Error: 	Existing Object: HOTRELOADED_PlayerCharacter_5 /Engine/Transient.Default__PlayerCharacter
+[2022.02.12-23.53.45:892][676]LogWindows: Error: 
+[2022.02.12-23.53.45:892][676]LogWindows: Error: 
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fffd1aa4f69 KERNELBASE.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff301ad066 UE4Editor-Core.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff301b07a8 UE4Editor-Core.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff2febe8cd UE4Editor-Core.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff950bbe77 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff9bb53e21 UE4Editor-Mazegame_-0134.dll!APlayerCharacter::__VTableCtorCaller() [D:\Unreal Projects\GameMaze\Mazegame_\Source\Mazegame_\PlayerCharacter.h:12]
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff94dc01db UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff94dbd6ed UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff9bb59cfb UE4Editor-Mazegame_-0134.dll!APlayerCharacter::GetPrivateStaticClass() [D:\Unreal Projects\GameMaze\Mazegame_\Intermediate\Build\Win64\UE4Editor\Inc\Mazegame_\PlayerCharacter.gen.cpp:141]
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff9bb59b7f UE4Editor-Mazegame_-0134.dll!TClassCompiledInDefer<APlayerCharacter>::Register() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject\UObjectBase.h:301]
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff9506d8ed UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff95052831 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff94f82305 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff2fef99ea UE4Editor-Core.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff2ff212a8 UE4Editor-Core.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff2ff20328 UE4Editor-Core.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff1420afc7 UE4Editor-HotReload.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff1420acc8 UE4Editor-HotReload.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff1421ca12 UE4Editor-HotReload.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007fff2fc7e708 UE4Editor-Core.dll!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007ff68ec6d07d UE4Editor.exe!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007ff68ec8117c UE4Editor.exe!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007ff68ec8125a UE4Editor.exe!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007ff68ec952bd UE4Editor.exe!UnknownFunction []
+[2022.02.12-23.53.45:892][676]LogWindows: Error: [Callstack] 0x00007ff68ec97fea UE4Editor.exe!UnknownFunction []
+[2022.02.12-23.53.45:893][676]LogWindows: Error: [Callstack] 0x00007fffd3ba7034 KERNEL32.DLL!UnknownFunction []
+[2022.02.12-23.53.45:893][676]LogWindows: Error: [Callstack] 0x00007fffd4322651 ntdll.dll!UnknownFunction []
+[2022.02.12-23.53.45:893][676]LogWindows: Error: 
+[2022.02.12-23.53.45:902][676]LogExit: Executing StaticShutdownAfterError
+[2022.02.12-23.53.45:930][676]LogWindows: FPlatformMisc::RequestExit(1)
+[2022.02.12-23.53.45:930][676]LogCore: Engine exit requested (reason: Win RequestExit)
+[2022.02.12-23.53.46:195][676]Log file closed, 02/12/22 23:53:46

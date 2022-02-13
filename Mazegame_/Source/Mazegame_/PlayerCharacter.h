@@ -35,11 +35,13 @@ protected:
 
 	void LookUp(float value_);
 
+	void CollectKey();
+
 
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Health")
 		float health;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Keys")
 		float NumberOfKeys;
 
 	UPROPERTY()
@@ -48,6 +50,8 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
 		USoundBase* footstepSoundBase;
+
+	
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -58,4 +62,8 @@ public:
 	float GetHealth();
 
 	void DecrementHealth(float value_);
+
+	void ChangeKeyValue(float value_);
+
+	class AActor* currentKey;
 };
